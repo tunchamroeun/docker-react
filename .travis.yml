@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-southeast-1"
-  app: "quasar-docker"
-  env: "QuasarDocker-env"
+  app: "quasar-react"
+  env: "QuasarReact-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-567964750178"
-  bucket_path: "quasar-docker"
+  bucket_path: "quasar-react"
   on:
     branch: master
   access_key_id: $ACCESS
